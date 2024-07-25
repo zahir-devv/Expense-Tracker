@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money-Tracking</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <h1 class="title">Money tracking App</h1>
+        <div class="balance-box">
+            <h2>BALANCE</h2>
+            <h1 id="balance">₹0.00</h1>
+        </div>
+        <div class="inc-exp-cont">
+            <div class="box">
+                <h3>INCOME</h3>
+                <h2 id="income">₹30000</h2>
+            </div>
+            <div class="box">
+                <h3>EXPENCE</h3>
+                <h2 id="expense">₹30000</h2>
+            </div>
+        </div>
+        <h2 class="new-head"> Add New Transaction</h2>
+        <form id="form">
+            <input id="text" type="text" placeholder="Enter Title">
+            <input id="amount" type="number" placeholder="Enter Amount">
+            <button id="addbtn" type="button">ADD</button>
+        </form>
+        <h2 class="hist-head">HISTORY</h2>
+        <ul id="history">
+           <!--  <li class="red">Books <span>-1200₹</span>
+            <button id="delete">×</button></li>
+            <li class="red">Books <span>-1200₹</span>
+            <button id="delete">×</button></li>
+            <li class="red">Books <span>-1200₹</span>
+            <button id="delete">×</button></li> -->
+        </ul>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
